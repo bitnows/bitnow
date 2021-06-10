@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/bitnow_bg.qm</file>
+        <file alias="ca">locale/bitnow_ca.qm</file>
+        <file alias="cs">locale/bitnow_cs.qm</file>
+        <file alias="da">locale/bitnow_da.qm</file>
+        <file alias="de">locale/bitnow_de.qm</file>
+        <file alias="en">locale/bitnow_en.qm</file>
+        <file alias="en_US">locale/bitnow_en_US.qm</file>
+        <file alias="es">locale/bitnow_es.qm</file>
+        <file alias="fi">locale/bitnow_fi.qm</file>
+        <file alias="fr_FR">locale/bitnow_fr_FR.qm</file>
+        <file alias="it">locale/bitnow_it.qm</file>
+        <file alias="ja">locale/bitnow_ja.qm</file>
+        <file alias="ko_KR">locale/bitnow_ko_KR.qm</file>
+        <file alias="nl">locale/bitnow_nl.qm</file>
+        <file alias="pl">locale/bitnow_pl.qm</file>
+        <file alias="pt">locale/bitnow_pt.qm</file>
+        <file alias="pt_BR">locale/bitnow_pt_BR.qm</file>
+        <file alias="ro_RO">locale/bitnow_ro_RO.qm</file>
+        <file alias="ru">locale/bitnow_ru.qm</file>
+        <file alias="sk">locale/bitnow_sk.qm</file>
+        <file alias="sv">locale/bitnow_sv.qm</file>
+        <file alias="tr">locale/bitnow_tr.qm</file>
+        <file alias="uk">locale/bitnow_uk.qm</file>
+        <file alias="zh_CN">locale/bitnow_zh_CN.qm</file>
+        <file alias="zh_TW">locale/bitnow_zh_TW.qm</file>
+    </qresource>
+</RCC>

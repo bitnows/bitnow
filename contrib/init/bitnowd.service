@@ -1,0 +1,26 @@
+[Unit]
+Description=Bitnow's distributed currency daemon
+After=network.target
+
+[Service]
+User=bitnow
+Group=bitnow
+
+Type=forking
+PIDFile=/var/lib/bitnowd/bitnowd.pid
+
+ExecStart=/usr/bin/bitnowd -daemon -pid=/var/lib/bitnowd/bitnowd.pid \
+          -conf=/etc/bitnow/bitnow.conf -datadir=/var/lib/bitnowd
+
+ExecStop=-/usr/bin/bitnow-cli -conf=/etc/bitnow/bitnow.conf \
+         -datadir=/var/lib/bitnowd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

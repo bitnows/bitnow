@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitnow
+Comment=Bitnow P2P Cryptocurrency
+Exec=bitnow-qt %u
+Terminal=false
+Type=Application
+Icon=bitnow128
+MimeType=x-scheme-handler/bitnow;
+Categories=Office;Finance;
+Name[ru]=bitnow-qt.desktop.desktop

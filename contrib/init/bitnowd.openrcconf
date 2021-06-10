@@ -1,0 +1,26 @@
+# /etc/conf.d/bitnowd: config file for /etc/init.d/bitnowd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bitnow/bitnow.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/bitnowd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitnowd.pid"
+
+# Where to write bitnowd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bitnowd"
+
+# User and group to own bitnowd process
+#BITCOIND_USER="bitnow"
+#BITCOIND_GROUP="bitnow"
+
+# Path to bitnowd executable
+#BITCOIND_BIN="/usr/bin/bitnowd"
+
+# Nice value to run bitnowd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
